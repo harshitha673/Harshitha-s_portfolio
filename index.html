@@ -1,0 +1,338 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshitha's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1c004d;
+
+      color: white;
+    }
+
+    header {
+      background-color: #2b027c;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffff;
+    }
+
+    section {
+      
+      padding: 100px 150px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .section1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .left-container, .right-container {
+      flex: 1;
+       min-width: 300px;
+      padding: 20px;
+      
+    }
+
+    .left-container h1 {
+      font-size: 24px;
+    }
+
+    .data-analyst {
+      color: #00ffff;
+    }
+
+    .right-container img {
+      width: 100%;
+    
+    }
+
+    .experience-box, .project-box {
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .project-title {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .project-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .project-left, .project-right {
+      flex: 1;
+      min-width: 300px;
+      padding: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+  
+    }
+
+    
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title">Harshitha's Portfolio</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Education</a>
+      <a href="#">Experience</a>
+      <a href="#">Project</a>
+      <a href="#">Technical Skills</a>
+      <a href="#">Certifications</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section1">
+    <div class="left-container">
+      <h1 style="font-size: 45px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">Hello, It's Me <br> Bandarupalli Harshitha,<br> And I'm a <span class="data-analyst">Data Analyst</span></h1>
+    </div>
+    <div class="right-container" >
+      <img src="https://sociable.co/wp-content/uploads/2016/08/data-analytics.jpg" 
+      style="width: 550px; height: 550px; border-radius: 50%; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);" >
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">About Me</div>
+    <p style="font-size:18px; text-align: justify;">I am a passionate and results-driven Data Analyst with a strong foundation in statistical analysis, 
+      data visualization, and data-driven decision-making. With a deep curiosity for uncovering patterns and 
+      insights hidden within complex data sets, I thrive on turning raw data into clear, actionable insights that 
+      help organizations grow, optimize operations, and make informed strategic decisions.<br>
+      I built a strong foundation in analytical thinking, data modeling, and the practical application of data 
+      science tools. Throughout my academic and professional journey, I have gained hands-on experience with a 
+      wide range of tools and technologies including SQL for querying databases, Excel for exploratory analysis, 
+      and programming languages such as Python and R for data cleaning, processing, and predictive modeling. I am 
+      also proficient in data visualization tools like Tableau and Power BI, which I use to present complex 
+      findings in an accessible and impactful way for stakeholders.<br>
+      What excites me most about data analytics is its potential to tell stories and solve real-world problems. I approach every dataset with a critical eye—asking the right questions, looking beyond the surface, and always thinking about the “why” behind the numbers. Whether it’s customer behavior trends, sales performance, or operational efficiency metrics, I believe that data—when interpreted effectively—can reveal insights that drive powerful business outcomes.<br>
+      I worked closely with cross-functional teams to identify performance gaps, optimize pricing strategies, and improve customer retention. Through detailed analysis and visualization, I was able to highlight key opportunities that contributed to a 15% improvement in quarterly sales. This experience not only strengthened my technical abilities but also deepened my understanding of how data analytics supports strategic planning and decision-making at every level of an organization.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">Education</div>
+    <table style="border: 1px solid #1c004d;
+      padding: 10px;
+      text-align: center;
+      
+      border-bottom: 1px solid #ccc;">
+        
+    <tr style="font-size: 20px; border-bottom: 1px solid #ccc;">
+      <th style="padding:40px;">Degree/Certificate</th>
+      <th>Institute/Board</th>
+      <th>CGPA/Percentage</th>
+      <th>Year</th>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+      <td style="padding:20px;">B.Tech CSE-DS</td>
+      <td>Malla Reddy Engineering College</td>
+      <td>8.09</td>
+      <td>2022–2026</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+      <td style="padding:20px;">Senior Secondary</td>
+      <td>TSBIE Board</td>
+      <td>93.2%</td>
+      <td>2020–2022</td>
+    </tr>
+    <tr>
+      <td style="padding:20px;">Secondary</td>
+      <td>CBSE Board</td>
+      <td>81.6%</td>
+      <td>2020</td>
+    </tr>
+  </table>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">My Experience</div>
+    <div class="experience-box" style="border: 20px inset #3d6fa5; 
+      color: #ffffff; text-align: justify;">
+      <h3 style="padding: 10px 550px; font-size:22px">1Stop</h3>
+      <p style="font-size: 18px;">At the beginning of the internship, I was introduced to the fundamentals of data exploration, preprocessing, and visualization. I worked on cleaning and organizing messy datasets using Python libraries like Pandas and NumPy. One of my early tasks was to perform Exploratory Data Analysis (EDA) on various datasets, identifying trends, missing values, outliers, and understanding the overall structure. This helped me build a strong foundation in data wrangling.
+         I also worked on data visualization using tools such as Matplotlib, Seaborn, and Tableau. I created dashboards and graphs to present insights in a clear and visually appealing manner. This aspect of the internship emphasized the importance of storytelling with data—how well data is communicated often determines the impact of the analysis.
+      </p>
+    </div>
+    <div class="experience-box" style="border: 20px inset #3d6fa5; 
+      color: #ffffff; text-align: justify;">
+      <h3 style="padding: 10px 550px; font-size:22px">Vishesh</h3>
+      <p style="font-size: 18px;">I had the enriching opportunity to participate in a 2-day Inter-College Project Expo, where I showcased my technical skills, creativity, and collaborative abilities alongside peers from various institutions. The event brought together a diverse group of students, each presenting innovative solutions and ideas across different fields of engineering, technology, and applied sciences.
+        The preparation phase leading up to the expo was intense and rewarding. We brainstormed, designed, and built our project prototype, applying core concepts from our coursework along with self-learned techniques.
+      </p>
+    </div >
+    <div class="experience-box" style="border: 20px inset #3d6fa5; 
+      color: #ffffff; text-align: justify;">
+      <h3 style="padding: 10px 550px; font-size:22px">Skilltimate</h3>
+      <p style="font-size: 18px;">I had the opportunity to complete a Web Development internship at Skilltimate, where I worked extensively with HTML, CSS, and JavaScript. This internship provided me with practical, hands-on experience in building responsive and interactive websites, strengthening my front-end development skills and reinforcing my understanding of modern web technologies.
+
+During the course of the internship, I was assigned multiple real-world projects and tasks that helped me apply theoretical knowledge in a practical environment. I began by learning the best practices in HTML structuring, focusing on semantic tags, layout organization, and accessibility. This foundation enabled me to build clean and well-structured web pages that are both user- and search-engine-friendly.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">My Skills</div>
+    <ul style="font-size: 22px; padding: 20px 270px; border: 15px solid #91c7ff;
+      color: #ffffff; border-radius: 150px;         
+      overflow: hidden;            
+      box-shadow: 0 30px 10px rgba(135, 206, 250, 0.3)">
+      <li><strong>Programming:</strong> Python, R (Pandas, NumPy, Matplotlib, Seaborn)</li>
+      <li><strong>Data Visualization:</strong> Excel, Power BI, Tableau, Jupyter Notebook</li>
+      <li><strong>Databases:</strong> MySQL, MongoDB</li>
+      <li><strong>Machine Learning:</strong> Regression Analysis, Classification Analysis</li>
+      <li><strong>Technologies/Frameworks:</strong> Python IDLE, VS Code, PowerPoint</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">Projects</div>
+
+    <div class="project-box" style="border: 6px double #91c7ff;
+      color: #ffffff;">
+      <div class="project-title" style="font-size: 22px;">Voice Enabled Intelligent Book Search System</div>
+      <div class="project-content">
+        <div class="project-left">
+          <img src="https://www.psdcenter.com/wp-content/uploads/2019/11/voice-search-optimize.jpg" 
+          style="width: 450px; height:150px">
+        </div>
+        <div class="project-right">
+          <p style="font-size: 18px; text-align: justify;">The Voice-Enabled Intelligent Book Search System is an innovative application of voice recognition and artificial intelligence (AI) to revolutionize the way individuals search for books. This system integrates natural language processing (NLP) and machine learning algorithms to enable users to search for books using voice commands, eliminating the need for traditional manual searches.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box" style="border: 6px double #91c7ff;
+      color: #ffffff;">
+      <div class="project-title" style="font-size: 22px;">Scripting Device</div>
+      <div class="project-content">
+        <div class="project-left">
+          <img src="https://www.newark.com/productimages/large/en_US/22AJ1097-40.jpg"
+          style="width: 450px; height:150px">
+        </div>
+        <div class="project-right">
+          <p style="font-size: 18px; text-align: justify;">The Scripting Device Project focuses on automating tasks using scripts on a device. It involves writing scripts (e.g., Python, Bash) to perform functions like system monitoring, data processing, or remote control, enhancing efficiency and reducing manual effort.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box" style="border: 6px double #91c7ff;
+      color: #ffffff;">
+      <div class="project-title" style="font-size: 22px;">Hate Speech Detection</div>
+      <div class="project-content">
+        <div class="project-left">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.aFBnLi5PEDMRS3kPtSG18wHaEe?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+          style="width: 450px; height:200px">
+        </div>
+        <div class="project-right">
+          <p style="font-size: 18px; text-align: justify;">Hate speech detection refers to the process of identifying and categorizing content that contains hateful, discriminatory, or harmful language aimed at specific groups or individuals based on characteristics like race, religion, gender, nationality, sexual orientation, or other attributes. This task typically uses natural language processing (NLP) and machine learning techniques to automatically flag, filter, or block content that violates guidelines against text speech.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">Certificates</div>
+    <table style="border: 1px solid #1c004d;
+      padding: 10px;
+      text-align: center;
+      box-shadow:
+        0 0 40px #00ffff,
+        0 0 40px #00ffff,
+        0 0 40px #00ffff,
+        0 0 40px rgba(0, 255, 255, 0.4);
+">
+      <tr>
+        <td> <img src="microsoft.png.jpg"
+          style="width:500px; height:400px;"></td>
+        <td><img src="microsoft1.png.jpg" style="width:500px; height:400px;"></td>
+      </tr>
+      <tr>
+        <td><img src="microsoft2.png.jpg" style="width:500px; height:400px;"></td>
+        <td><img src="NPTEL1.png.jpg" style="width:500px; height:400px;"></td>
+      </tr>
+      <tr>
+        <td><img src="NPTEL2.png.jpg" style="width:500px; height:400px;"></td>
+        <td><img src="vishesh.png.jpg" style="width:500px; height:400px;"></td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <div class="section-title" style="font-size: 35px; color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(9, 195, 241), 0 0 5px rgb(11, 230, 238);">Contact Me</div>
+    <table style="border: 1px solid #1c004d;
+      padding: 30px;
+      text-align: center; font-size:18px;">
+      <tr style="padding: 60px 300px;" >
+        <td style="padding: 40px;">&#9742; +91 7569753246</td>
+          
+        <td>&#9993; harshitha3167@gmail.com</td>
+      </tr>
+      <tr>
+        <td >&#128100; linkedin.com/in/harshitha-bandarupalli</td>
+        <td>&#128187; github.com/harshitha673</td>
+      </tr>
+</table>
+
+</section>
+</body>
+</html>
